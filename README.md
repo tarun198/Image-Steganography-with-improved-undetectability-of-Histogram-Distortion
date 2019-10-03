@@ -38,13 +38,12 @@ following steps to embed the image: -
   4.8 A histogram of this embedded image is created
   4.9 Now, the 2 histograms were compared for differences.
 
-  0° Rotation 90° Rotation
+  0° Rotation
+  90° Rotation
+  180° Rotation
+  270° Rotation
 
-  180° Rotation 270° Rotation
-
-5. The second greedy algorithm that we implemented utilises queues as a data structure.
-
-10
+5. The second greedy algorithm that we implemented is based on minimizing global effect created on image by embedding.
 
 5.1 A queue of size 256 is initialised with all 0s with each index representing change in
 pixel intensity that occurs during the embedding of the secret message.
